@@ -1,17 +1,9 @@
 {
   "resources": [
-    {"id":{"name":"spr_start_flag2","path":"sprites/spr_start_flag2/spr_start_flag2.yy",},"order":11,},
-    {"id":{"name":"spr_start_flag5","path":"sprites/spr_start_flag5/spr_start_flag5.yy",},"order":14,},
     {"id":{"name":"spr_blue_car","path":"sprites/spr_blue_car/spr_blue_car.yy",},"order":4,},
-    {"id":{"name":"spr_finish_flag2","path":"sprites/spr_finish_flag2/spr_finish_flag2.yy",},"order":7,},
-    {"id":{"name":"spr_start_flag3","path":"sprites/spr_start_flag3/spr_start_flag3.yy",},"order":12,},
-    {"id":{"name":"spr_finish_flag3","path":"sprites/spr_finish_flag3/spr_finish_flag3.yy",},"order":8,},
-    {"id":{"name":"spr_finish_flag1","path":"sprites/spr_finish_flag1/spr_finish_flag1.yy",},"order":6,},
-    {"id":{"name":"spr_finish_flag4","path":"sprites/spr_finish_flag4/spr_finish_flag4.yy",},"order":9,},
-    {"id":{"name":"spr_finish_flag5","path":"sprites/spr_finish_flag5/spr_finish_flag5.yy",},"order":10,},
+    {"id":{"name":"spr_checkered_flag","path":"sprites/spr_checkered_flag/spr_checkered_flag.yy",},"order":16,},
     {"id":{"name":"spr_green_car","path":"sprites/spr_green_car/spr_green_car.yy",},"order":5,},
-    {"id":{"name":"spr_start_flag1","path":"sprites/spr_start_flag1/spr_start_flag1.yy",},"order":15,},
-    {"id":{"name":"spr_start_flag4","path":"sprites/spr_start_flag4/spr_start_flag4.yy",},"order":13,},
+    {"id":{"name":"spr_start_flag","path":"sprites/spr_start_flag/spr_start_flag.yy",},"order":17,},
     {"id":{"name":"rm_puzzle","path":"rooms/rm_puzzle/rm_puzzle.yy",},"order":0,},
   ],
   "Options": [
