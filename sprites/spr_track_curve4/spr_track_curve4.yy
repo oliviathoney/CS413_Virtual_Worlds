@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 22,
+  "bbox_left": 9,
+  "bbox_right": 31,
   "bbox_top": 9,
   "bbox_bottom": 31,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d28cb859-8db1-49ad-b22a-c46036bf77c6","path":"sprites/spr_track_curve/spr_track_curve.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d28cb859-8db1-49ad-b22a-c46036bf77c6","path":"sprites/spr_track_curve/spr_track_curve.yy",},"LayerId":{"name":"f92fe7dd-f4fe-45cd-bd2f-2cf103deb91a","path":"sprites/spr_track_curve/spr_track_curve.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_track_curve","path":"sprites/spr_track_curve/spr_track_curve.yy",},"resourceVersion":"1.0","name":"d28cb859-8db1-49ad-b22a-c46036bf77c6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"61dbe5c3-9cd7-4c2c-b1d5-aec4b0e794d4","path":"sprites/spr_track_curve4/spr_track_curve4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"61dbe5c3-9cd7-4c2c-b1d5-aec4b0e794d4","path":"sprites/spr_track_curve4/spr_track_curve4.yy",},"LayerId":{"name":"bcb4a1e2-44e8-4e55-ba98-b55218b1e7b7","path":"sprites/spr_track_curve4/spr_track_curve4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_track_curve4","path":"sprites/spr_track_curve4/spr_track_curve4.yy",},"resourceVersion":"1.0","name":"61dbe5c3-9cd7-4c2c-b1d5-aec4b0e794d4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_track_curve","path":"sprites/spr_track_curve/spr_track_curve.yy",},
+    "spriteId": {"name":"spr_track_curve4","path":"sprites/spr_track_curve4/spr_track_curve4.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e49f90da-3e44-4454-bfdb-4a36f33837ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d28cb859-8db1-49ad-b22a-c46036bf77c6","path":"sprites/spr_track_curve/spr_track_curve.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bc0fb693-c300-4e62-ad16-77ee1967a27c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61dbe5c3-9cd7-4c2c-b1d5-aec4b0e794d4","path":"sprites/spr_track_curve4/spr_track_curve4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_track_curve","path":"sprites/spr_track_curve/spr_track_curve.yy",},
+    "parent": {"name":"spr_track_curve4","path":"sprites/spr_track_curve4/spr_track_curve4.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_track_curve",
+    "name": "spr_track_curve4",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f92fe7dd-f4fe-45cd-bd2f-2cf103deb91a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bcb4a1e2-44e8-4e55-ba98-b55218b1e7b7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_track_curve",
+  "name": "spr_track_curve4",
   "tags": [],
   "resourceType": "GMSprite",
 }

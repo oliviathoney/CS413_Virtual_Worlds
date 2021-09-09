@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_track_straight",
-    "path": "sprites/spr_track_straight/spr_track_straight.yy",
+    "name": "spr_track_curve1",
+    "path": "sprites/spr_track_curve1/spr_track_curve1.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_track_straight",
+  "name": "obj_track_curve1",
   "tags": [],
   "resourceType": "GMObject",
 }

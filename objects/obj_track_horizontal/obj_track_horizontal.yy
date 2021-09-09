@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_track_curve",
-    "path": "sprites/spr_track_curve/spr_track_curve.yy",
+    "name": "spr_track_horizontal",
+    "path": "sprites/spr_track_horizontal/spr_track_horizontal.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_track_curve",
+  "name": "obj_track_horizontal",
   "tags": [],
   "resourceType": "GMObject",
 }
