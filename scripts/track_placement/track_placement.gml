@@ -9,8 +9,14 @@ function place_track(grass){
 		// get track layer and queued track piece
 		var lyr_track = layer_get_id("Track");
 		//var track = queuePop(track_queue);
+		
 		// temp testing variable
-		var track = obj_track_horizontal;
+		var track = global.current_track;
+		
+		global.current_track = global.tracks_possible[irandom(6)];
+		
+		instance_destroy(global.current_id);
+		queue_display();
 		
 		// place track piece on layer
 		var inst_track = instance_create_layer(

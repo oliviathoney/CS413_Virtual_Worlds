@@ -1,7 +1,7 @@
 
 // get layers into vars
 var lyr_grass = layer_get_id("Grass");
-//var lyr_track = layer_get_id("Track");
+var lyr_track = layer_get_id("Track");
 //var lyr_instances = layer_get_id("Instances");
 
 // field dimensions
@@ -37,11 +37,15 @@ for (var col=0; col<field_width; col+=1) {
 }
 
 // create possible track array
-var tracks_possible = [obj_track_bridge,
-					   obj_track_curve1,
-					   obj_track_curve2,
-					   obj_track_curve3,
-					   obj_track_curve4,
-					   obj_track_horizontal,
-					   obj_track_vertical];
+global.tracks_possible = [obj_track_bridge,
+				   obj_track_curve1,
+				   obj_track_curve2,
+				   obj_track_curve3,
+				   obj_track_curve4,
+				   obj_track_horizontal,
+				   obj_track_vertical];
 
+randomize();
+global.current_track = global.tracks_possible[irandom(6)];
+
+queue_display();
