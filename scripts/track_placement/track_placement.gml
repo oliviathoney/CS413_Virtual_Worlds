@@ -13,7 +13,7 @@ function place_track(grass){
 		// temp testing variable
 		var track = global.current_track;
 		
-		global.current_track = global.tracks_possible[irandom(6)];
+		global.current_track = global.tracks_possible[irandom(7)];
 		
 		instance_destroy(global.current_id);
 		queue_display();

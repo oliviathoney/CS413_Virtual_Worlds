@@ -37,15 +37,16 @@ for (var col=0; col<field_width; col+=1) {
 }
 
 // create possible track array
-global.tracks_possible = [obj_track_bridge,
-				   obj_track_curve1,
-				   obj_track_curve2,
-				   obj_track_curve3,
-				   obj_track_curve4,
-				   obj_track_horizontal,
-				   obj_track_vertical];
+global.tracks_possible = [obj_track_curve1,
+						  obj_track_curve2,
+						  obj_track_curve3,
+						  obj_track_curve4,
+						  obj_track_horizontal,
+						  obj_track_vertical,
+						  obj_track_horizontal,
+						  obj_track_vertical];
 
 randomize();
-global.current_track = global.tracks_possible[irandom(6)];
+global.current_track = global.tracks_possible[irandom(7)];
 
 queue_display();
