@@ -1,8 +1,6 @@
 
 // get layers into vars
 var lyr_grass = layer_get_id("Grass");
-var lyr_track = layer_get_id("Track");
-//var lyr_instances = layer_get_id("Instances");
 
 // field dimensions
 var field_width = 10;
