@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_blue_car_right",
-    "path": "sprites/spr_blue_car_right/spr_blue_car_right.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_blue_car",
+  "name": "obj_track",
   "tags": [],
   "resourceType": "GMObject",
 }
