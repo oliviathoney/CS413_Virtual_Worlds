@@ -1,6 +1,8 @@
 
 // get layers into vars
 var lyr_grass = layer_get_id("Grass");
+var lyr_track = layer_get_id("Track");
+var lyr_instances = layer_get_id("Instances");
 
 // field dimensions
 var field_width = 10;
@@ -24,9 +26,7 @@ for (var col=0; col<field_width; col+=1) {
 			var obj_grass = obj_grass_2;
 		}
 		var inst_grass = instance_create_layer(
-			_x, 
-			_y,
-			lyr_grass, obj_grass);
+							_x, _y, lyr_grass, obj_grass);
 		inst_grass.hasTrack = false;
 		inst_grass.xpos = _x;
 		inst_grass.ypos = _y;
@@ -34,17 +34,38 @@ for (var col=0; col<field_width; col+=1) {
 	}
 }
 
+// initiate flags
+var flag_width = sprite_get_width(spr_checkered_flag);
+var inst_start = instance_create_layer(
+					field_x_start, field_y_start,
+					lyr_instances, obj_start_flag);
+var inst_finish = instance_create_layer(
+					field_x_start + (field_width - 1) * flag_width, 
+					field_y_start + (field_height - 1) * flag_width,
+					lyr_instances, obj_checkered_flag);
+
+// initiate car
+var inst_car = instance_create_layer(
+					field_x_start, field_y_start,
+					lyr_instances, obj_blue_car);
+
 // create possible track array
-global.tracks_possible = [obj_track_curve1,
-						  obj_track_curve2,
-						  obj_track_curve3,
-						  obj_track_curve4,
-						  obj_track_horizontal,
-						  obj_track_vertical,
-						  obj_track_horizontal,
-						  obj_track_vertical];
+global.tracks_possible = [spr_track_curve1,
+						  spr_track_curve2,
+						  spr_track_curve3,
+						  spr_track_curve4,
+						  spr_track_horizontal,
+						  spr_track_vertical,
+						  spr_track_horizontal,
+						  spr_track_vertical];
 
 randomize();
 global.current_track = global.tracks_possible[irandom(7)];
+	
+// create queued track instance at top left
+global.queued_track = instance_create_layer(
+	32,
+	16,
+	lyr_track, obj_queue_track);
 
 queue_display();
