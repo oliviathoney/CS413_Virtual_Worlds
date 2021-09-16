@@ -24,6 +24,7 @@
     {"id":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"order":17,},
     {"id":{"name":"TGMS_Begin","path":"scripts/TGMS_Begin/TGMS_Begin.yy",},"order":1,},
     {"id":{"name":"track_placement","path":"scripts/track_placement/track_placement.yy",},"order":0,},
+    {"id":{"name":"check_win_recursive","path":"scripts/check_win_recursive/check_win_recursive.yy",},"order":5,},
     {"id":{"name":"queue_display","path":"scripts/queue_display/queue_display.yy",},"order":1,},
     {"id":{"name":"obj_podium","path":"objects/obj_podium/obj_podium.yy",},"order":15,},
     {"id":{"name":"obj_winner_red","path":"objects/obj_winner_red/obj_winner_red.yy",},"order":20,},
@@ -137,7 +138,7 @@
     {"CopyToMask":153157610357391598,"filePath":"datafiles","resourceVersion":"1.0","name":"airstrike.ttf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "racetrack",
