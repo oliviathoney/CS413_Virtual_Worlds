@@ -26,7 +26,7 @@ var inst_winner_red = instance_create_layer((room_width-winnerWidth)/2 + 64,
 var inst_blue_car = instance_create_layer(room_width + 32,
 										  room_height/2,
 										  lyr_instances,
-										  obj_blue_car);
+										  obj_blue_car_win);
 var inst_green_car = instance_create_layer(room_width + 32,
 										  room_height/2 + 16,
 										  lyr_instances,

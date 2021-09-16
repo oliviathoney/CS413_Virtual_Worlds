@@ -48,6 +48,7 @@
     {"id":{"name":"TGMS_Documentation","path":"notes/TGMS_Documentation/TGMS_Documentation.yy",},"order":1,},
     {"id":{"name":"TGMS_5_TweenGetSet","path":"scripts/TGMS_5_TweenGetSet/TGMS_5_TweenGetSet.yy",},"order":8,},
     {"id":{"name":"TGMS_9_Settings","path":"scripts/TGMS_9_Settings/TGMS_9_Settings.yy",},"order":12,},
+    {"id":{"name":"obj_blue_car_win","path":"objects/obj_blue_car_win/obj_blue_car_win.yy",},"order":29,},
     {"id":{"name":"rotate","path":"scripts/rotate/rotate.yy",},"order":3,},
     {"id":{"name":"spr_win_background","path":"sprites/spr_win_background/spr_win_background.yy",},"order":18,},
     {"id":{"name":"spr_track_curve2","path":"sprites/spr_track_curve2/spr_track_curve2.yy",},"order":11,},
