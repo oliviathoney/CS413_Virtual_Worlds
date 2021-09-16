@@ -21,4 +21,5 @@ function place_track(grass){
 		// update grass piece's status to have a track on it
 		grass.hasTrack = true;
 	}
+	check_win();
 }
