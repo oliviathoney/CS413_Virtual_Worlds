@@ -31,5 +31,9 @@ function create_track(xpos, ypos, sprite){
 	} else if(sprite == spr_track_curve4){
 		inst_track.right = true;
 		inst_track.down = true;
+	} else if(sprite == spr_track_start){
+		inst_track.down = true;
+	} else if(sprite == spr_track_finish){
+		inst_track.left = true;
 	}
 }
