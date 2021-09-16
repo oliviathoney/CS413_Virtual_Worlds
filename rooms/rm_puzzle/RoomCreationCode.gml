@@ -50,18 +50,7 @@ var inst_finish = instance_create_layer(
 					field_y_start + (field_height - 1) * flag_width,
 					lyr_instances, obj_checkered_flag);
 					
-/*
-var inst_track_start = instance_create_layer(
-						field_x_start, 
-						field_y_start+32, 
-						lyr_instances, 
-						obj_queue_track);
-var inst_track_finsih = instance_create_layer(
-						field_x_start + (field_width - 1) * flag_width - 32, 
-						field_y_start + (field_height - 1) * flag_width,
-						lyr_instances, 
-						obj_queue_track);
-*/
+
 create_track(field_x_start, field_y_start+32, spr_track_start);
 create_track(field_x_start + (field_width - 1) * flag_width - 32, field_y_start + (field_height - 1) * flag_width, spr_track_finish);
 
@@ -81,7 +70,7 @@ global.tracks_possible = [spr_track_curve1,
 						  spr_track_vertical];
 
 randomize();
-// global.next_track = global.tracks_possible[irandom(7)];
+global.next_track = global.tracks_possible[irandom(7)];
 global.current_track = global.tracks_possible[irandom(7)];
 
 	
@@ -91,11 +80,10 @@ global.queued_track = instance_create_layer(
 	16,
 	lyr_track, obj_queue_track);
 	
-/*
+
 global.queued_next = instance_create_layer(
 	16,
 	16,
-	lyr_track, obj_queue_track);
-*/
+	lyr_track, obj_next_in_queue_track);
 
 queue_display();

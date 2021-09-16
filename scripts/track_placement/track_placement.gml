@@ -13,9 +13,9 @@ function place_track(grass){
 		
 		create_track(grass.xpos, grass.ypos, track_spr);
 		
-		// global.current_track = global.next_track;
-		global.current_track = global.tracks_possible[irandom(7)];
-		// global.next_track = global.tracks_possible[irandom(7)];
+		global.current_track = global.next_track;
+		// global.current_track = global.tracks_possible[irandom(7)];
+		global.next_track = global.tracks_possible[irandom(7)];
 		queue_display();
 		
 		// update grass piece's status to have a track on it

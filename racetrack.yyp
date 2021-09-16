@@ -81,6 +81,7 @@
     {"id":{"name":"spr_start_flag","path":"sprites/spr_start_flag/spr_start_flag.yy",},"order":3,},
     {"id":{"name":"TGMS_Terms_of_Use","path":"notes/TGMS_Terms_of_Use/TGMS_Terms_of_Use.yy",},"order":2,},
     {"id":{"name":"obj_grass_1","path":"objects/obj_grass_1/obj_grass_1.yy",},"order":15,},
+    {"id":{"name":"obj_next_in_queue_track","path":"objects/obj_next_in_queue_track/obj_next_in_queue_track.yy",},"order":28,},
     {"id":{"name":"obj_green_car","path":"objects/obj_green_car/obj_green_car.yy",},"order":16,},
     {"id":{"name":"obj_blue_car","path":"objects/obj_blue_car/obj_blue_car.yy",},"order":3,},
     {"id":{"name":"spr_winner_green","path":"sprites/spr_winner_green/spr_winner_green.yy",},"order":21,},
