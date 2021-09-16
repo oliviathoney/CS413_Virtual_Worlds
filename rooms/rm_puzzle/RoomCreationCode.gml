@@ -60,11 +60,18 @@ global.tracks_possible = [spr_track_curve1,
 						  spr_track_vertical];
 
 randomize();
+global.next_track = global.tracks_possible[irandom(7)];
 global.current_track = global.tracks_possible[irandom(7)];
+
 	
 // create queued track instance at top left
 global.queued_track = instance_create_layer(
 	32,
+	16,
+	lyr_track, obj_queue_track);
+	
+global.queued_next = instance_create_layer(
+	16,
 	16,
 	lyr_track, obj_queue_track);
 
