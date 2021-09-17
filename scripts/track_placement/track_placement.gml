@@ -1,6 +1,7 @@
 // handles placement of tracks 
 function place_track(grass){
 	
+	// fixes possibility of calling on an invalid grass block
 	if (grass == noone) return;
 	
 	with (grass){
@@ -9,8 +10,7 @@ function place_track(grass){
 		if (grass.hasTrack) return;
 		
 		// creates track on clicked tile
-		var track_spr = global.current_track;
-		create_track(grass.xpos, grass.ypos, track_spr);
+		create_track(grass.xpos, grass.ypos, global.current_track);
 		
 		// updates the track queue
 		global.current_track = global.next_track;

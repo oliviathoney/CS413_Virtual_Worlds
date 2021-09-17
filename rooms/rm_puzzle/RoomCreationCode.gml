@@ -38,8 +38,6 @@ for (var col=0; col<field_width; col+=1) {
 	}
 }
 
-
-
 // initiate flags, start and end
 var flag_width = sprite_get_width(spr_checkered_flag);
 var inst_start = instance_create_layer(
@@ -50,9 +48,12 @@ var inst_finish = instance_create_layer(
 					field_y_start + (field_height - 1) * flag_width,
 					lyr_instances, obj_checkered_flag);
 					
-
-create_track(field_x_start, field_y_start+32, spr_track_start);
-create_track(field_x_start + (field_width - 1) * flag_width - 32, field_y_start + (field_height - 1) * flag_width, spr_track_finish);
+create_track(field_x_start,
+			 field_y_start+32,
+			 spr_track_start);
+create_track(field_x_start + (field_width - 1) * flag_width - 32,
+			 field_y_start + (field_height - 1) * flag_width, 
+			 spr_track_finish);
 
 // initiate car
 var inst_car = instance_create_layer(
@@ -69,21 +70,20 @@ global.tracks_possible = [spr_track_curve1,
 						  spr_track_horizontal,
 						  spr_track_vertical];
 
+// randomly select first 2 tracks
 randomize();
 global.next_track = global.tracks_possible[irandom(7)];
 global.current_track = global.tracks_possible[irandom(7)];
 
-	
 // create queued track instance at top left
 global.queued_track = instance_create_layer(
 	32,
 	16,
 	lyr_track, obj_queue_track);
-	
-
 global.queued_next = instance_create_layer(
 	16,
 	16,
 	lyr_track, obj_next_in_queue_track);
 
+// display created objects in the queue
 queue_display();
