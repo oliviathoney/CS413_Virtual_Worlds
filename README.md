@@ -7,8 +7,8 @@ From the home screen, you can choose to start the game or read the instructions.
 ##	Known	Bugs	or	Issues
 Describe	any	known	issues	with	your	game.
 ##	Credits
-*	Olivia Thoney: Created all sprites, animation, creation code, and obejct events for the home screen. Created all sprites, animation, creation code, and object events for the help screen. Created all sprite, animation, creation code, and sequences for winning screen. Created car sprites, flag sprite on puzzle screen. Create control sprite on puzzle screen. Wrote code to keep track of "next" piece after the current piece. 
+*	OLIVIA: Created all sprites, animation, creation code, and obejct events for the home screen. Created all sprites, animation, creation code, and object events for the help screen. Created all sprite, animation, creation code, and sequences for winning screen. Created car sprites, flag sprite on puzzle screen. Create control sprite on puzzle screen. Wrote code to keep track of "next" piece after the current piece. 
 handling
-*	Zach: Created	queue sprite, all grass sprites, all track sprites and grand stand sprites. Wrote all puzzle screen creation code. Wrote all scripts for handling track rotation and placement. Wrote code to check if a full track had been created. 
+*	ZACH: Created	queue sprite, all grass sprites, all track sprites and grand stand sprites. Wrote all puzzle screen creation code. Wrote all scripts for handling track rotation and placement. Wrote code to check if a full track had been created. 
 
 resolution: 352x336
