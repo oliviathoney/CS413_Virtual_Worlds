@@ -1,4 +1,3 @@
-
 // get layers into vars
 var lyr_grass = layer_get_id("Grass");
 var lyr_track = layer_get_id("Track");
@@ -27,6 +26,7 @@ for (var col=0; col<field_width; col+=1) {
 		}
 		var inst_grass = instance_create_layer(
 							_x, _y, lyr_grass, obj_grass);
+		
 		if ((row == 1 && col == 0) || (row == field_height-1 && col == field_width - 2)) {
 			inst_grass.hasTrack = true;
 		} else {
@@ -59,6 +59,12 @@ create_track(field_x_start + (field_width - 1) * flag_width - 32,
 var inst_car = instance_create_layer(
 					field_x_start, field_y_start,
 					lyr_instances, obj_blue_car);
+					
+var inst_controls = instance_create_layer(
+					room_width-sprite_get_width(spr_controls)-8,
+					8,
+					lyr_instances, 
+					obj_controls);
 
 // create possible track array
 global.tracks_possible = [spr_track_curve1,
@@ -87,3 +93,4 @@ global.queued_next = instance_create_layer(
 
 // display created objects in the queue
 queue_display();
+
