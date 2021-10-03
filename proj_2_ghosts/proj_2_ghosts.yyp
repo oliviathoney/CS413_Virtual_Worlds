@@ -1,6 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"spr_ghost_gun","path":"sprites/spr_ghost_gun/spr_ghost_gun.yy",},"order":1,},
+    {"id":{"name":"spr_ghost_hunter_back","path":"sprites/spr_ghost_hunter_back/spr_ghost_hunter_back.yy",},"order":4,},
+    {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},"order":0,},
+    {"id":{"name":"spr_ghost_hunter","path":"sprites/spr_ghost_hunter/spr_ghost_hunter.yy",},"order":3,},
+    {"id":{"name":"spr_sacred_artifact","path":"sprites/spr_sacred_artifact/spr_sacred_artifact.yy",},"order":2,},
     {"id":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},"order":1,},
+    {"id":{"name":"spr_ghost_hunter_left","path":"sprites/spr_ghost_hunter_left/spr_ghost_hunter_left.yy",},"order":5,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [
@@ -42,7 +48,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "proj_2_ghosts",
