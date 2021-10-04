@@ -1,11 +1,22 @@
 {
   "resources": [
+    {"id":{"name":"spr_torch_right","path":"sprites/spr_torch_right/spr_torch_right.yy",},"order":9,},
+    {"id":{"name":"spr_torch_middle","path":"sprites/spr_torch_middle/spr_torch_middle.yy",},"order":8,},
     {"id":{"name":"spr_ghost_gun","path":"sprites/spr_ghost_gun/spr_ghost_gun.yy",},"order":1,},
+    {"id":{"name":"spr_torch_left","path":"sprites/spr_torch_left/spr_torch_left.yy",},"order":10,},
     {"id":{"name":"spr_ghost_hunter_back","path":"sprites/spr_ghost_hunter_back/spr_ghost_hunter_back.yy",},"order":4,},
+    {"id":{"name":"tiles_background","path":"tilesets/tiles_background/tiles_background.yy",},"order":0,},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},"order":0,},
+    {"id":{"name":"spr_torch","path":"sprites/spr_torch/spr_torch.yy",},"order":11,},
     {"id":{"name":"spr_ghost_hunter","path":"sprites/spr_ghost_hunter/spr_ghost_hunter.yy",},"order":3,},
+    {"id":{"name":"spr_tilemap","path":"sprites/spr_tilemap/spr_tilemap.yy",},"order":6,},
     {"id":{"name":"spr_sacred_artifact","path":"sprites/spr_sacred_artifact/spr_sacred_artifact.yy",},"order":2,},
+    {"id":{"name":"spr_ghost_hunter_right","path":"sprites/spr_ghost_hunter_right/spr_ghost_hunter_right.yy",},"order":12,},
     {"id":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},"order":1,},
+    {"id":{"name":"spr_collider_tilemap","path":"sprites/spr_collider_tilemap/spr_collider_tilemap.yy",},"order":7,},
+    {"id":{"name":"tiles_collider","path":"tilesets/tiles_collider/tiles_collider.yy",},"order":1,},
+    {"id":{"name":"obj_torch","path":"objects/obj_torch/obj_torch.yy",},"order":1,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_ghost_hunter_left","path":"sprites/spr_ghost_hunter_left/spr_ghost_hunter_left.yy",},"order":5,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
@@ -21,8 +32,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -48,7 +59,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "proj_2_ghosts",
