@@ -19,6 +19,7 @@
     {"id":{"name":"obj_torch","path":"objects/obj_torch/obj_torch.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_ghost_hunter_left","path":"sprites/spr_ghost_hunter_left/spr_ghost_hunter_left.yy",},"order":5,},
+    {"id":{"name":"spr_vacuum","path":"sprites/spr_vacuum/spr_vacuum.yy",},"order":13,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [
@@ -60,7 +61,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "proj_2_ghosts",
