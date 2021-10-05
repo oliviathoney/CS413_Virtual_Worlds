@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"order":2,},
     {"id":{"name":"spr_torch_right","path":"sprites/spr_torch_right/spr_torch_right.yy",},"order":9,},
     {"id":{"name":"spr_torch_middle","path":"sprites/spr_torch_middle/spr_torch_middle.yy",},"order":8,},
     {"id":{"name":"spr_ghost_gun","path":"sprites/spr_ghost_gun/spr_ghost_gun.yy",},"order":1,},
