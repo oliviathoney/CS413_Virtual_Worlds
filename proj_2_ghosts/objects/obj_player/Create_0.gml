@@ -1,5 +1,5 @@
 collider_tiles = layer_tilemap_get_id("tilemap_colliders");
-movement_speed = 1;
+movement_speed = 2;
 
 up_down = false;
 down_down = false;
