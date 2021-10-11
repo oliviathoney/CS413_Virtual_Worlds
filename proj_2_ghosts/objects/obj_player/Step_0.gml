@@ -27,7 +27,7 @@ function move(_x, _y, direc){
 }
 
 function step_up(){
-	sprite_index = spr_ghost_hunter_back;
+	sprite_index = spr_ghost_hunter_walking_up;
 	
 	if (!(left_down || right_down || down_down)){
 		move(0, -movement_speed, "up");
@@ -35,7 +35,7 @@ function step_up(){
 }
 
 function step_down(){
-	sprite_index = spr_ghost_hunter;
+	sprite_index = spr_ghost_hunter_walking_down;
 	
 	if (!(left_down || right_down || up_down)){
 		move(0, movement_speed, "down");
@@ -43,7 +43,7 @@ function step_down(){
 }
 
 function step_left(){
-	sprite_index = spr_ghost_hunter_left;
+	sprite_index = spr_ghost_hunter_walking_left;
 	
 	if (!(up_down || right_down || down_down)){
 		move(-movement_speed, 0, "left");
@@ -51,7 +51,7 @@ function step_left(){
 }
 
 function step_right(){
-	sprite_index = spr_ghost_hunter_right;
+	sprite_index = spr_ghost_hunter_walking_right;
 	
 	if (!(left_down || up_down || down_down)){
 		move(movement_speed, 0, "right");
