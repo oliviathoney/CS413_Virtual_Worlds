@@ -28,3 +28,8 @@ walk_time = 0;
 
 // collision detection
 tm_colliders = layer_tilemap_get_id("tilemap_colliders");
+
+
+// create room status
+current_room = 1;
+change_room = false;
