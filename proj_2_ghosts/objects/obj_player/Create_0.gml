@@ -28,3 +28,9 @@ walk_time = 0;
 
 // collision detection
 tm_colliders = layer_tilemap_get_id("tilemap_colliders");
+
+
+// initialize player stats
+health = 3;
+hit = false;
+counter = 0;

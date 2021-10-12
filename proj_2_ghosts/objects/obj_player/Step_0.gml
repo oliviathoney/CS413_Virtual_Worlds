@@ -21,3 +21,10 @@ if (player_state == player_states.walking){
 } else {
 	sprite_index = next_spr;	
 }
+
+// counter resetting every 240 frames so the player can get hit again
+if (counter == 240) {
+	counter = 0;
+	hit = false;
+}
+counter++;

@@ -26,6 +26,14 @@ function move(direc){
 			y_pos = y_end;
 	
 			player_state = player_states.walking;
+			
+			// play stepping sound
+			var sound_i = irandom_range(0, 2);
+			var sound_chose = sound_step_large;
+			if (sound_i == 0) { sound_chose = sound_step_small; }
+			else if (sound_i == 1) { sound_chose = sound_step_medium; }
+				
+			audio_play_sound(sound_chose, 1, 0);
 		}
 	}
 }
