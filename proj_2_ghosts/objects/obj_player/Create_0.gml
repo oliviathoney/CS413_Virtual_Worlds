@@ -22,7 +22,7 @@ y_end = y_pos;
 
 
 // walking speed/animation variables
-walk_length = 0.5;
+walk_length = 0.25;
 walk_time = 0;
 
 
@@ -34,3 +34,5 @@ tm_colliders = layer_tilemap_get_id("tilemap_colliders");
 health = 3;
 hit = false;
 counter = 0;
+current_room = 1;
+door_counter = 0;

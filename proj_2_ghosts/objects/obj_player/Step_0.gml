@@ -28,3 +28,7 @@ if (counter == 60) {
 	hit = false;
 }
 counter++;
+
+if (door_counter > 0) {
+	door_counter--;	
+}
