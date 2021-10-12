@@ -23,7 +23,7 @@ if (player_state == player_states.walking){
 }
 
 // counter resetting every 240 frames so the player can get hit again
-if (counter == 240) {
+if (counter == 60) {
 	counter = 0;
 	hit = false;
 }

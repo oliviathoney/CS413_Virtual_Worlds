@@ -15,3 +15,4 @@ global.inst_lives_2 = instance_create_layer(room_width - 128, room_height - 32, 
 
 global.hasArtifact = false;
 global.hasGun = false;
+global.lives = 3;
