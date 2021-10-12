@@ -1,6 +1,4 @@
-if (player_state == player_states.idle){
-	move(move_direction.left);
+/// @description Handles leftward movement
 
-	sprite_index = spr_ghost_hunter_walking_left;
-	next_spr = spr_ghost_hunter_left;
-}
+left_down = true;
+step_left();
