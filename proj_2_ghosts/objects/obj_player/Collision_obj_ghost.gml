@@ -11,7 +11,7 @@ if (!hit){
 		global.inst_lives_2.sprite_index = spr_1life;
 	} else {
 		audio_stop_sound(sound_theme_song);
-		room_goto(rm_home);
+		room_goto(rm_lose);
 	}
 	
 	hit = true;
