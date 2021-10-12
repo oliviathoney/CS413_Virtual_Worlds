@@ -1,4 +1,6 @@
-/// @description Handles downward movement
+if (player_state == player_states.idle){
+	move(move_direction.down);
 
-down_down = true;
-step_down();
+	sprite_index = spr_ghost_hunter_walking_down;
+	next_spr = spr_ghost_hunter;
+}
