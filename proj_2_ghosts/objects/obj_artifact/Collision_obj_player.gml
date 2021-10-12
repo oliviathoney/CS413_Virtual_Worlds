@@ -12,7 +12,7 @@ for (var i = 0; i < instance_number(obj_ghost); ++i;)
 {
     with(instance_find(obj_ghost,i)) {
 		path_end();
-		move_towards_point(obj_player.x, obj_player.y, 1);
+		// move_towards_point(obj_player.x, obj_player.y, 1);
 	}
 }
 
