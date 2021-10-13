@@ -7,13 +7,13 @@ if(global.hasGun) {
 	var inst = instance_create_layer(x, y, lyr_instances, obj_bullet);
 	
 	inst.speed = 5;
-	if(sprite_index == 19 || sprite_index == 16) {
-		inst.direction = 270;
-	} else if (sprite_index == 10 || sprite_index == 11) {
-		inst.direction = 90;
-	} else if (sprite_index == 28 || sprite_index == 18 ) {
-		inst.direction = 180;
-	} else {
+	if(sprite_index == spr_ghost_hunter_right || sprite_index == spr_ghost_hunter_walking_right) {
 		inst.direction = 0;
+	} else if (sprite_index == spr_ghost_hunter_left || sprite_index == spr_ghost_hunter_walking_left) {
+		inst.direction = 180;
+	} else if (sprite_index == spr_ghost_hunter_back || sprite_index == spr_ghost_hunter_walking_up ) {
+		inst.direction = 90;
+	} else {
+		inst.direction = 270;
 	}
 }
