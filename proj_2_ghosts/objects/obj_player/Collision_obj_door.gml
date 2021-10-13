@@ -17,5 +17,11 @@ if (door_counter == 0){
 		y_pos = 160 div tile_width;
 		current_room = 1;
 	}
-	door_counter = 240;
+	door_counter = 60;
+	
+	if (global.hasGun){
+		sprite_index = spr_ghost_hunter_gun;
+	} else{
+		sprite_index = spr_ghost_hunter;
+	}
 }

@@ -2,8 +2,7 @@
 // You can write your code in this editor
 
 
-x = other.x;
-y = other.y - 16;
+visible = 0;
 
 depth = 500;
 
