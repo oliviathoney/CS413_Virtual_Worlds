@@ -1,7 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"move","path":"scripts/move/move.yy",},"order":1,},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"order":1,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":3,},
+    {"id":{"name":"spr_manhole","path":"sprites/spr_manhole/spr_manhole.yy",},"order":2,},
     {"id":{"name":"spr_bank_background","path":"sprites/spr_bank_background/spr_bank_background.yy",},"order":0,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
+    {"id":{"name":"obj_manhole","path":"objects/obj_manhole/obj_manhole.yy",},"order":0,},
+    {"id":{"name":"MACRO","path":"scripts/MACRO/MACRO.yy",},"order":0,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [
