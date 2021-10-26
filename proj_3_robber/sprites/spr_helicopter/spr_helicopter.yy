@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 127,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 32,
+  "width": 128,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"89a528b1-b9c7-4ca2-ad13-7cbcad508682","path":"sprites/spr_helicopter/spr_helicopter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"89a528b1-b9c7-4ca2-ad13-7cbcad508682","path":"sprites/spr_helicopter/spr_helicopter.yy",},"LayerId":{"name":"76530675-519c-4098-936f-56685999a8d6","path":"sprites/spr_helicopter/spr_helicopter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_helicopter","path":"sprites/spr_helicopter/spr_helicopter.yy",},"resourceVersion":"1.0","name":"89a528b1-b9c7-4ca2-ad13-7cbcad508682","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3f150dc2-ad25-4457-bc08-305cb7fac38f","path":"sprites/spr_helicopter/spr_helicopter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3f150dc2-ad25-4457-bc08-305cb7fac38f","path":"sprites/spr_helicopter/spr_helicopter.yy",},"LayerId":{"name":"0f879a44-19ed-4185-b680-6ff3b723d65d","path":"sprites/spr_helicopter/spr_helicopter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_helicopter","path":"sprites/spr_helicopter/spr_helicopter.yy",},"resourceVersion":"1.0","name":"3f150dc2-ad25-4457-bc08-305cb7fac38f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_helicopter","path":"sprites/spr_helicopter/spr_helicopter.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"52f967e6-c6f3-4ce0-b7d0-4912c847053f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89a528b1-b9c7-4ca2-ad13-7cbcad508682","path":"sprites/spr_helicopter/spr_helicopter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"da6b1581-0b69-4d36-ac20-c94a04c3cddb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f150dc2-ad25-4457-bc08-305cb7fac38f","path":"sprites/spr_helicopter/spr_helicopter.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"76530675-519c-4098-936f-56685999a8d6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f879a44-19ed-4185-b680-6ff3b723d65d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
