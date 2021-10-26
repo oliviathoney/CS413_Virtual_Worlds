@@ -1,14 +1,20 @@
+// init positions
 y_pos = y div tile_width;
 y_start = y_pos;
 y_end = y_pos;
 
-global.player_position = player_positions.up;
+// init states
+global.player_position = player_positions.middle;
 global.player_state = player_states.running;
+global.player_speed = player_speeds.start_speed;
+global.player_collided = false;
 
+// init movement vals
+player_speed = 3;
 walk_length = 0.25;
 walk_time = 0;
 
-player_speed = 3;
-
-// counter for game to begin
-counter = 60;
+// counters
+start_counter = 60;
+speed_counter = 360;
+collision_counter = 0;
