@@ -13,8 +13,9 @@ global.player_collided = false;
 player_speed = 3;
 walk_length = 0.25;
 walk_time = 0;
+jump_height = y_start - 40;
 
 // counters
-start_counter = 60;
+global.start_counter = 60;
 speed_counter = 360;
 collision_counter = 0;

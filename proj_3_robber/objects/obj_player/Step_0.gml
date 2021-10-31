@@ -1,10 +1,10 @@
 // check for game start
-start_counter -= 1;
-if(start_counter > 0){
-	sprite_index = spr_robber_running;
-	
+global.start_counter -= 1;
+if(global.start_counter > 0){	
 	return;
 }
+
+sprite_index = spr_robber_running;
 
 // set speed values for each speed level
 if(global.player_speed == player_speeds.fastest) {
@@ -20,6 +20,7 @@ if(global.player_speed == player_speeds.fastest) {
 }
 
 // move player by x speed
+show_debug_message(player_speed);
 x += player_speed;
 
 // conduct vertical movement
@@ -40,3 +41,6 @@ if (global.player_state == player_states.moving){
 	
 	y = _y * tile_width;
 }
+
+
+
