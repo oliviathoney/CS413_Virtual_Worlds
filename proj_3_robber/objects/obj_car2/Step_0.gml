@@ -1,0 +1,1 @@
+x -= car_speed;
