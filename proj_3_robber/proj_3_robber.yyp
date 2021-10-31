@@ -11,6 +11,7 @@
     {"id":{"name":"increase_speed","path":"scripts/increase_speed/increase_speed.yy",},"order":3,},
     {"id":{"name":"obj_fire_hydrant","path":"objects/obj_fire_hydrant/obj_fire_hydrant.yy",},"order":4,},
     {"id":{"name":"spr_fire_hydrant","path":"sprites/spr_fire_hydrant/spr_fire_hydrant.yy",},"order":8,},
+    {"id":{"name":"spr_robber_running","path":"sprites/spr_robber_running/spr_robber_running.yy",},"order":9,},
     {"id":{"name":"spr_car1","path":"sprites/spr_car1/spr_car1.yy",},"order":2,},
     {"id":{"name":"spr_trash_can","path":"sprites/spr_trash_can/spr_trash_can.yy",},"order":7,},
     {"id":{"name":"move","path":"scripts/move/move.yy",},"order":1,},

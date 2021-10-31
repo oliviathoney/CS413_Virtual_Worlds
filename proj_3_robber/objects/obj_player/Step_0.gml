@@ -1,6 +1,8 @@
 // check for game start
 start_counter -= 1;
 if(start_counter > 0){
+	sprite_index = spr_robber_running;
+	
 	return;
 }
 
