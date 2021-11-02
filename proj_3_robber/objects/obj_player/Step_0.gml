@@ -14,6 +14,13 @@ if(global.timeAfterWin == 0) {
 	room_goto(rm_win);
 }
 
+if(global.player_state = player_states.caught) {
+	if(alarm[0] == -1) {
+		alarm[0] = room_speed * 0.5;
+	}
+	return;
+}
+
 sprite_index = spr_robber_running;
 
 // set speed values for each speed level
@@ -27,10 +34,11 @@ if(global.player_speed == player_speeds.fastest) {
 	player_speed = 2;
 } else if(global.player_speed == player_speeds.slowest) {
 	player_speed = 1;
+} else {
+	player_speed = 0;
 }
 
 // move player by x speed
-show_debug_message(player_speed);
 x += player_speed;
 
 // conduct vertical movement
@@ -51,6 +59,4 @@ if (global.player_state == player_states.moving){
 	
 	y = _y * tile_width;
 }
-
-
 

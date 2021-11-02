@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "path": "folders/Objects/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_robber_running",
