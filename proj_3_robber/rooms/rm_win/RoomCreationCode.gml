@@ -11,9 +11,9 @@ for(var i = 0; i < instance_number(obj_police); i+=1;) {
 }
 
 with(instance_find(obj_play_again, 0)) {
-	TweenEasyMove(x, y, 544, 384, 20, room_speed*4, EaseInCubic);
+	TweenEasyMove(x, y, 544, 384, 15, room_speed*4, EaseInCubic);
 }
 
 with(instance_find(obj_exit, 0)) {
-	TweenEasyMove(x, y, 64, 384, 20, room_speed*4, EaseInCubic);
+	TweenEasyMove(x, y, 64, 384, 15, room_speed*4, EaseInCubic);
 }
