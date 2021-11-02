@@ -4,11 +4,14 @@
     {"id":{"name":"spr_getaway_car","path":"sprites/spr_getaway_car/spr_getaway_car.yy",},"order":5,},
     {"id":{"name":"spr_car3","path":"sprites/spr_car3/spr_car3.yy",},"order":4,},
     {"id":{"name":"spr_police","path":"sprites/spr_police/spr_police.yy",},"order":0,},
+    {"id":{"name":"obj_getaway_car","path":"objects/obj_getaway_car/obj_getaway_car.yy",},"order":8,},
+    {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":1,},
     {"id":{"name":"spr_car2","path":"sprites/spr_car2/spr_car2.yy",},"order":3,},
     {"id":{"name":"obj_trash_can","path":"objects/obj_trash_can/obj_trash_can.yy",},"order":3,},
     {"id":{"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},"order":6,},
     {"id":{"name":"obj_police","path":"objects/obj_police/obj_police.yy",},"order":2,},
     {"id":{"name":"increase_speed","path":"scripts/increase_speed/increase_speed.yy",},"order":3,},
+    {"id":{"name":"spr_win_temp","path":"sprites/spr_win_temp/spr_win_temp.yy",},"order":10,},
     {"id":{"name":"obj_fire_hydrant","path":"objects/obj_fire_hydrant/obj_fire_hydrant.yy",},"order":4,},
     {"id":{"name":"spr_fire_hydrant","path":"sprites/spr_fire_hydrant/spr_fire_hydrant.yy",},"order":8,},
     {"id":{"name":"spr_robber_running","path":"sprites/spr_robber_running/spr_robber_running.yy",},"order":9,},
@@ -41,6 +44,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
