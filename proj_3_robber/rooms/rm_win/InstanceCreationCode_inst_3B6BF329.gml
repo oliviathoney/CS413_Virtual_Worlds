@@ -1,0 +1,1 @@
+path_start(path_heli1, 4, path_action_stop, true);

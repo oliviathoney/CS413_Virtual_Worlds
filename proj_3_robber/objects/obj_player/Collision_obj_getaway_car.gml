@@ -1,1 +1,1 @@
-room_goto(rm_win);
+win_sequence();

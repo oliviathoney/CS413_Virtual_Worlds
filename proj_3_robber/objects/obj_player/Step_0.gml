@@ -1,7 +1,17 @@
 // check for game start
 global.start_counter -= 1;
+
 if(global.start_counter > 0){	
 	return;
+}
+
+if(global.timeAfterWin > 0) {
+	global.timeAfterWin -= 1;
+	return;
+}
+
+if(global.timeAfterWin == 0) {
+	room_goto(rm_win);
 }
 
 sprite_index = spr_robber_running;
