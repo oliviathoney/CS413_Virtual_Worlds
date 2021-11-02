@@ -15,6 +15,7 @@ if (collision_counter <= 0 && global.player_collided == true) {
 	// reset counters
 	speed_counter = 360;
 	collision_counter = 60;	
+	global.player_collided = false;
 } else {global.player_collided = false;}
 
 if (speed_counter <= 0){
@@ -22,3 +23,4 @@ if (speed_counter <= 0){
 	speed_counter = 360;
 }
 speed_counter -= 1;
+collision_counter -= 1;
