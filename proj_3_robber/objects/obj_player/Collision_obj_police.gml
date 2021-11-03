@@ -1,4 +1,5 @@
-global.player_collided = true;
+audio_stop_sound(sound_steps);
+audio_stop_sound(sound_siren);
 
 global.player_state = player_states.caught;
 

@@ -1,8 +1,6 @@
-TweenEasyMove(x, y, room_width + 64, y, 10, 30, EaseInCubic);
+sprite_index = spr_start_pressed;
 
-
-with(instance_find(obj_help, 0)) {
-	TweenEasyMove(x, y, room_width + 64, y, 5, 30, EaseInCubic);
+if(!clicked){
+	audio_play_sound(sound_click_in, 1, 0);
+	clicked = true;
 }
-
-alarm[0] = room_speed*0.5;

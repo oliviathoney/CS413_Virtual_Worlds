@@ -17,3 +17,6 @@ with(instance_find(obj_play_again, 0)) {
 with(instance_find(obj_exit, 0)) {
 	TweenEasyMove(x, y, 64, 384, 15, room_speed*4, EaseInCubic);
 }
+
+audio_stop_sound(sound_siren);
+audio_play_sound(sound_theme, 1, true);

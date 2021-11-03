@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.2,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound_theme.wav",
-  "duration": 4.272472,
+  "duration": 43.2819939,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

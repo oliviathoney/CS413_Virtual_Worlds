@@ -7,3 +7,5 @@ dialog = dialog_create(sprite_width-40,
 						(sprite_height-40),
 						20, 20, 10,
 						dialog_text);
+						
+audio_play_sound(sound_type, 1, 1);

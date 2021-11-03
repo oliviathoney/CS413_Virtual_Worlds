@@ -1,3 +1,6 @@
-with(instance_find(obj_instructions, 0)) {
-	TweenEasyMove(x, y, x, 16, 0, 45, EaseOutCubic);
+sprite_index = spr_help_pressed;
+
+if(!clicked){
+	audio_play_sound(sound_click_in, 1, 0);
+	clicked = true;
 }

@@ -5,6 +5,12 @@ if(global.start_counter > 0){
 	return;
 }
 
+if(!started){
+	global.running_sound = audio_play_sound(sound_steps, 1, 1);
+	global.siren_sound = audio_play_sound(sound_siren, 1, 1);
+	started = true;
+}
+
 if(global.timeAfterWin > 0) {
 	global.timeAfterWin -= 1;
 	return;
@@ -40,6 +46,7 @@ if(global.player_speed == player_speeds.fastest) {
 
 // move player by x speed
 x += player_speed;
+global.player_x = x;
 
 // conduct vertical movement
 if (global.player_state == player_states.moving){
