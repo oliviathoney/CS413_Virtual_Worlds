@@ -5,7 +5,7 @@
 ##	Instructions
 tbd
 ##	Known	Bugs	or	Issues
-tbd 
+Layering of objects can be a little weird, sometimes.
 ##	Credits
 *	OLIVIA: tbd
 *	ZACH: tbd
