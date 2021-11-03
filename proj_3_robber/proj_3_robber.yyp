@@ -17,6 +17,7 @@
     {"id":{"name":"TGMS_Terms_of_Use","path":"notes/TGMS_Terms_of_Use/TGMS_Terms_of_Use.yy",},"order":2,},
     {"id":{"name":"TGMS_X_Deprecated","path":"scripts/TGMS_X_Deprecated/TGMS_X_Deprecated.yy",},"order":13,},
     {"id":{"name":"o_SharedTweener","path":"objects/o_SharedTweener/o_SharedTweener.yy",},"order":0,},
+    {"id":{"name":"sound_theme","path":"sounds/sound_theme/sound_theme.yy",},"order":0,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":10,},
     {"id":{"name":"spr_escape","path":"sprites/spr_escape/spr_escape.yy",},"order":9,},
     {"id":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"order":4,},
@@ -121,7 +122,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "proj_3_robber",
