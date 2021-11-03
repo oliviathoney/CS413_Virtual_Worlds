@@ -1,5 +1,5 @@
 dialog_t = 0;
-dialog_delta = 0.2;
+dialog_delta = 0.4;
 
 var dialog_text = "We just robbed the bank! We can't celebrate yet, though. The police are on their way now. Help me get to the getaway car down the street. Just avoid all the obstacles.";
 

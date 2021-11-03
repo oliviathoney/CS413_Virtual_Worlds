@@ -45,6 +45,7 @@
     {"id":{"name":"spr_manhole","path":"sprites/spr_manhole/spr_manhole.yy",},"order":14,},
     {"id":{"name":"obj_instructions","path":"objects/obj_instructions/obj_instructions.yy",},"order":17,},
     {"id":{"name":"spr_bank_background","path":"sprites/spr_bank_background/spr_bank_background.yy",},"order":5,},
+    {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
     {"id":{"name":"TGMS_5_TweenGetSet","path":"scripts/TGMS_5_TweenGetSet/TGMS_5_TweenGetSet.yy",},"order":8,},
     {"id":{"name":"TGMS_4_TweenState","path":"scripts/TGMS_4_TweenState/TGMS_4_TweenState.yy",},"order":7,},
