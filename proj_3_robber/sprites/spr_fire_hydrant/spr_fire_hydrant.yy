@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 25,
-  "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_left": 7,
+  "bbox_right": 24,
+  "bbox_top": 12,
+  "bbox_bottom": 29,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -42,7 +42,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"add51316-53f7-4b0d-bd50-38bc76b89033","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e8cebbf0-62aa-4cdc-b271-3d2db4337eaa","path":"sprites/spr_fire_hydrant/spr_fire_hydrant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Objects/Sprites.yy",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fire_hydrant",

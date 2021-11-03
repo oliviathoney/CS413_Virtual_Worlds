@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"acbb3e16-f4ca-473e-88ff-7e3397f4a5ff","path":"sprites/spr_bank_background/spr_bank_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"acbb3e16-f4ca-473e-88ff-7e3397f4a5ff","path":"sprites/spr_bank_background/spr_bank_background.yy",},"LayerId":{"name":"ffb01a41-47e0-4d57-9c81-379c3cd1605d","path":"sprites/spr_bank_background/spr_bank_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bank_background","path":"sprites/spr_bank_background/spr_bank_background.yy",},"resourceVersion":"1.0","name":"acbb3e16-f4ca-473e-88ff-7e3397f4a5ff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"78ad7444-04b9-4bc8-8468-b504a7e47552","path":"sprites/spr_bank_background/spr_bank_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"78ad7444-04b9-4bc8-8468-b504a7e47552","path":"sprites/spr_bank_background/spr_bank_background.yy",},"LayerId":{"name":"5fa4b288-1e7e-49ac-8fc0-19fc9e7b3e23","path":"sprites/spr_bank_background/spr_bank_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bank_background","path":"sprites/spr_bank_background/spr_bank_background.yy",},"resourceVersion":"1.0","name":"78ad7444-04b9-4bc8-8468-b504a7e47552","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_bank_background","path":"sprites/spr_bank_background/spr_bank_background.yy",},
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"30c06efe-aaa0-47b6-b4e7-f7d8d0a6f139","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"acbb3e16-f4ca-473e-88ff-7e3397f4a5ff","path":"sprites/spr_bank_background/spr_bank_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"a47412c7-0a50-4d38-969d-0aac5af6b3ce","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"78ad7444-04b9-4bc8-8468-b504a7e47552","path":"sprites/spr_bank_background/spr_bank_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ffb01a41-47e0-4d57-9c81-379c3cd1605d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5fa4b288-1e7e-49ac-8fc0-19fc9e7b3e23","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Objects/Sprites.yy",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bank_background",

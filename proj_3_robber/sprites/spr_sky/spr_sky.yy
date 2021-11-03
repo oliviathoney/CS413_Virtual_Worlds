@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 5119,
+  "bbox_right": 7167,
   "bbox_top": 0,
   "bbox_bottom": 511,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 5120,
+  "width": 7168,
   "height": 512,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e55815a0-3ad5-4a0a-82a5-0f216193cd7b","path":"sprites/spr_sky/spr_sky.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e55815a0-3ad5-4a0a-82a5-0f216193cd7b","path":"sprites/spr_sky/spr_sky.yy",},"LayerId":{"name":"86f73f59-b21a-4585-b949-8c1005f176e2","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","name":"e55815a0-3ad5-4a0a-82a5-0f216193cd7b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"03a8a77c-8765-4053-bf52-b26ae36ca72a","path":"sprites/spr_sky/spr_sky.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"03a8a77c-8765-4053-bf52-b26ae36ca72a","path":"sprites/spr_sky/spr_sky.yy",},"LayerId":{"name":"547d9323-2bed-4bc7-8406-accba5c5b687","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","name":"03a8a77c-8765-4053-bf52-b26ae36ca72a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},
@@ -41,8 +41,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c9e47edc-1ee7-451f-9ded-76cb42752190","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e55815a0-3ad5-4a0a-82a5-0f216193cd7b","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+            {"id":"ab3170f8-4bb1-486e-be4d-ac4a1505f987","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03a8a77c-8765-4053-bf52-b26ae36ca72a","path":"sprites/spr_sky/spr_sky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"86f73f59-b21a-4585-b949-8c1005f176e2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"547d9323-2bed-4bc7-8406-accba5c5b687","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Objects/Sprites.yy",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sky",

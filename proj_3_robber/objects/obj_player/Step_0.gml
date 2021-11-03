@@ -25,15 +25,15 @@ sprite_index = spr_robber_running;
 
 // set speed values for each speed level
 if(global.player_speed == player_speeds.fastest) {
-	player_speed = 8;
-} else if(global.player_speed == player_speeds.faster) {
 	player_speed = 6;
+} else if(global.player_speed == player_speeds.faster) {
+	player_speed = 5;
 } else if(global.player_speed == player_speeds.start_speed) {
 	player_speed = 4;
 } else if(global.player_speed == player_speeds.slower) {
-	player_speed = 2;
+	player_speed = 3;
 } else if(global.player_speed == player_speeds.slowest) {
-	player_speed = 1;
+	player_speed = 2;
 } else {
 	player_speed = 0;
 }
