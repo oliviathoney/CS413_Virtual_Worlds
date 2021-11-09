@@ -1,0 +1,25 @@
+{
+  "kind": 0,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":-105.75,"y":81.24805,},
+    {"speed":100.0,"x":-6.75,"y":51.2480469,},
+    {"speed":100.0,"x":96.0,"y":96.0,},
+    {"speed":100.0,"x":288.0,"y":32.0,},
+    {"speed":100.0,"x":448.0,"y":96.0,},
+    {"speed":100.0,"x":595.25,"y":38.2480469,},
+    {"speed":100.0,"x":736.0,"y":96.0,},
+    {"speed":100.0,"x":960.0,"y":32.0,},
+    {"speed":100.0,"x":1120.0,"y":96.0,},
+    {"speed":100.0,"x":1440.0,"y":32.0,},
+  ],
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "path_heli1",
+  "tags": [],
+  "resourceType": "GMPath",
+}
