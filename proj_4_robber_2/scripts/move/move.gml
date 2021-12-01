@@ -48,7 +48,7 @@ function move(pos){
 	
 	// update y vals
 	y_start = y_pos;
-	y_end = y_pos + dy;
+	y_end = y_pos + dy * global.move_modifier;
 	y_pos = y_end;
 	
 	// set state to moving lanes
