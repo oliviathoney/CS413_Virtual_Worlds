@@ -13,13 +13,12 @@ global.player_collided = false;
 global.timeAfterWin = -1;
 
 // init movement vals
-player_speed = 3;
+player_speed = 4;
 walk_length = 0.5;
 walk_time = 0;
 jump_height = y_start - 40;
 
 // counters
-speed_counter = 360;
 collision_counter = 0;
 
 started = false;

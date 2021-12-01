@@ -74,6 +74,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_car_red_right","path":"objects/obj_car_red_right/obj_car_red_right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":224.0,"resourceVersion":"1.0","name":"inst_77BCFCB9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_car_red_right","path":"objects/obj_car_red_right/obj_car_red_right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2336.0,"y":224.0,"resourceVersion":"1.0","name":"inst_4272D329","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":320.0,"resourceVersion":"1.0","name":"inst_3D4C29F3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_gear_shifter","path":"objects/obj_gear_shifter/obj_gear_shifter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_6117EEE1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_3E2954DE","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -151,6 +152,7 @@
     {"name":"inst_77BCFCB9","path":"rooms/rm_game_lvl_2/rm_game_lvl_2.yy",},
     {"name":"inst_4272D329","path":"rooms/rm_game_lvl_2/rm_game_lvl_2.yy",},
     {"name":"inst_3D4C29F3","path":"rooms/rm_game_lvl_2/rm_game_lvl_2.yy",},
+    {"name":"inst_6117EEE1","path":"rooms/rm_game_lvl_2/rm_game_lvl_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

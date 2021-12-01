@@ -24,13 +24,13 @@ sprite_index = spr_getaway_car_player;
 
 // set speed values for each speed level
 if(global.player_speed == player_speeds.fastest) {
-	player_speed = 6;
+	player_speed = 10;
 } else if(global.player_speed == player_speeds.faster) {
-	player_speed = 5;
+	player_speed = 8;
 } else if(global.player_speed == player_speeds.start_speed) {
-	player_speed = 4;
+	player_speed = 6;
 } else if(global.player_speed == player_speeds.slower) {
-	player_speed = 3;
+	player_speed = 4;
 } else if(global.player_speed == player_speeds.slowest) {
 	player_speed = 2;
 } else {
