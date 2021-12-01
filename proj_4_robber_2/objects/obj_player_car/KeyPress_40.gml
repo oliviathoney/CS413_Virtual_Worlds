@@ -1,0 +1,1 @@
+move(player_positions.down);
