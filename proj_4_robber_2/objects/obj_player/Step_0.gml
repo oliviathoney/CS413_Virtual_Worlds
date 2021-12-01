@@ -17,7 +17,7 @@ if(global.timeAfterWin > 0) {
 }
 
 if(global.timeAfterWin == 0) {
-	room_goto(rm_win);
+	room_goto(rm_game_lvl_2);
 }
 
 if(global.player_state = player_states.caught) {
