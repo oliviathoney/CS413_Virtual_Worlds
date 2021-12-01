@@ -1,2 +1,2 @@
-car_speed = 1;
+car_speed = 1.5;
 
