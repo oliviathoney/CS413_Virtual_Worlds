@@ -20,3 +20,5 @@ with(instance_find(obj_exit, 0)) {
 
 audio_stop_sound(sound_siren);
 audio_play_sound(sound_theme, 1, true);
+
+global.start_counter = 0;

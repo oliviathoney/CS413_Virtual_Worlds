@@ -1,0 +1,1 @@
+sprite_index = spr_win_box_level_3;

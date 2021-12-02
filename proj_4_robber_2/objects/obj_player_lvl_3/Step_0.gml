@@ -4,10 +4,10 @@ key_jump = keyboard_check_pressed(vk_space);
 
 
 if( keyboard_check_pressed(vk_left) ) {
-	sprite_index = spr_robber_running_left;
+	sprite_index = spr_robber_running_lvl3_left;
 }
 if( keyboard_check_pressed(vk_right) ) {
-	sprite_index = spr_robber_running;
+	sprite_index = spr_robber_running_lvl3_right;
 }
 
 var _move = key_right - key_left;

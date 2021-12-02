@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_robber",
-    "path": "sprites/spr_robber/spr_robber.yy",
+    "name": "spr_robber_lv3",
+    "path": "sprites/spr_robber_lv3/spr_robber_lv3.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,6 +29,8 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_flood_light","path":"objects/obj_flood_light/obj_flood_light.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_getaway_car","path":"objects/obj_getaway_car/obj_getaway_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

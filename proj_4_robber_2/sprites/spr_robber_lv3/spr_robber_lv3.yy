@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 8,
-  "bbox_right": 27,
+  "bbox_right": 25,
   "bbox_top": 38,
-  "bbox_bottom": 59,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"LayerId":{"name":"582611f6-95f8-40bc-ac41-a914d3847e47","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","name":"cd783c91-999d-467a-b187-65c38dc87585","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber_lv3/spr_robber_lv3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber_lv3/spr_robber_lv3.yy",},"LayerId":{"name":"582611f6-95f8-40bc-ac41-a914d3847e47","path":"sprites/spr_robber_lv3/spr_robber_lv3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_robber_lv3","path":"sprites/spr_robber_lv3/spr_robber_lv3.yy",},"resourceVersion":"1.0","name":"cd783c91-999d-467a-b187-65c38dc87585","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},
+    "spriteId": {"name":"spr_robber_lv3","path":"sprites/spr_robber_lv3/spr_robber_lv3.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b13a628d-e87d-4c2e-b261-98b4b84f36d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f8de457d-ab40-4cd5-8069-695c40590a9b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber_lv3/spr_robber_lv3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},
+    "parent": {"name":"spr_robber_lv3","path":"sprites/spr_robber_lv3/spr_robber_lv3.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_robber",
+    "name": "spr_robber_lv3",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_robber",
+  "name": "spr_robber_lv3",
   "tags": [],
   "resourceType": "GMSprite",
 }
