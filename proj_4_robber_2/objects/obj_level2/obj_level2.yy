@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite32",
-    "path": "sprites/Sprite32/Sprite32.yy",
+    "name": "spr_level2",
+    "path": "sprites/spr_level2/spr_level2.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tmp2",
+  "name": "obj_level2",
   "tags": [],
   "resourceType": "GMObject",
 }
