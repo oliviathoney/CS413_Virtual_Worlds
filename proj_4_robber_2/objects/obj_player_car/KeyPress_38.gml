@@ -1,1 +1,1 @@
-move(player_positions.up);
+move_car(player_positions.up);
