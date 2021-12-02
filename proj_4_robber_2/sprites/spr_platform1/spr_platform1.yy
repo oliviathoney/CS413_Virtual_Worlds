@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 8,
-  "bbox_right": 27,
-  "bbox_top": 38,
-  "bbox_bottom": 59,
+  "bbox_left": 0,
+  "bbox_right": 117,
+  "bbox_top": 0,
+  "bbox_bottom": 3,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 64,
+  "width": 118,
+  "height": 4,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"LayerId":{"name":"582611f6-95f8-40bc-ac41-a914d3847e47","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","name":"cd783c91-999d-467a-b187-65c38dc87585","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c99cef77-01ae-488c-a6b7-dcf31c9e2f3a","path":"sprites/spr_platform1/spr_platform1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c99cef77-01ae-488c-a6b7-dcf31c9e2f3a","path":"sprites/spr_platform1/spr_platform1.yy",},"LayerId":{"name":"9961ac28-5ed2-48e5-ba94-70afb9fe88a2","path":"sprites/spr_platform1/spr_platform1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_platform1","path":"sprites/spr_platform1/spr_platform1.yy",},"resourceVersion":"1.0","name":"c99cef77-01ae-488c-a6b7-dcf31c9e2f3a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},
+    "spriteId": {"name":"spr_platform1","path":"sprites/spr_platform1/spr_platform1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b13a628d-e87d-4c2e-b261-98b4b84f36d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8c99a192-6f25-441b-aad7-0a5679a5c375","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c99cef77-01ae-488c-a6b7-dcf31c9e2f3a","path":"sprites/spr_platform1/spr_platform1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},
+    "parent": {"name":"spr_platform1","path":"sprites/spr_platform1/spr_platform1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_robber",
+    "name": "spr_platform1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"582611f6-95f8-40bc-ac41-a914d3847e47","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9961ac28-5ed2-48e5-ba94-70afb9fe88a2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_robber",
+  "name": "spr_platform1",
   "tags": [],
   "resourceType": "GMSprite",
 }
