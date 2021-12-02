@@ -1,6 +1,6 @@
 if(!started){
-	global.running_sound = audio_play_sound(sound_steps, 1, 1);
-	global.siren_sound = audio_play_sound(sound_siren, 1, 1);
+	global.running_sound = audio_play_sound(sound_car, 1, 1);
+	// global.siren_sound = audio_play_sound(sound_siren, 1, 1);
 	started = true;
 }
 
@@ -19,8 +19,6 @@ if(global.player_state = player_states.caught) {
 	}
 	return;
 }
-
-sprite_index = spr_getaway_car_player;
 
 // set speed values for each speed level
 if(global.player_speed == player_speeds.fastest) {

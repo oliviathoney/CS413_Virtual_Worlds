@@ -1,1 +1,1 @@
-increase_speed()
+increase_speed_car();

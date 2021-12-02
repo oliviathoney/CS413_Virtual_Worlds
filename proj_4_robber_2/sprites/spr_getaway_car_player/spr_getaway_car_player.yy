@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 18,
-  "bbox_right": 106,
+  "bbox_left": 4,
+  "bbox_right": 124,
   "bbox_top": 27,
-  "bbox_bottom": 45,
+  "bbox_bottom": 50,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"921fb9d9-e681-46c9-9a9d-437b89cef66c","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"921fb9d9-e681-46c9-9a9d-437b89cef66c","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"23ca8c43-1e2d-43d4-8c40-9fc1de46f0d1","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"921fb9d9-e681-46c9-9a9d-437b89cef66c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"84f1707b-a93f-43e1-822f-ba3f9817ef96","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"84f1707b-a93f-43e1-822f-ba3f9817ef96","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"23ca8c43-1e2d-43d4-8c40-9fc1de46f0d1","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"84f1707b-a93f-43e1-822f-ba3f9817ef96","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c1c48287-d76a-4d84-a697-05ddbabd1fd3","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c1c48287-d76a-4d84-a697-05ddbabd1fd3","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"23ca8c43-1e2d-43d4-8c40-9fc1de46f0d1","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"c1c48287-d76a-4d84-a697-05ddbabd1fd3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f7f16022-cd3e-42cf-9123-a836a138ce5a","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f7f16022-cd3e-42cf-9123-a836a138ce5a","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"23ca8c43-1e2d-43d4-8c40-9fc1de46f0d1","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"f7f16022-cd3e-42cf-9123-a836a138ce5a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fe36f044-82a4-435a-98d2-8f409897593b","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fe36f044-82a4-435a-98d2-8f409897593b","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"81b430c5-0b9b-400d-b90f-87191721553f","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"fe36f044-82a4-435a-98d2-8f409897593b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"70b1bce1-a191-4c5b-b259-4e32968054c5","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"70b1bce1-a191-4c5b-b259-4e32968054c5","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"81b430c5-0b9b-400d-b90f-87191721553f","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"70b1bce1-a191-4c5b-b259-4e32968054c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bef4b2a0-b64d-4268-b3e3-edde4b01d8df","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bef4b2a0-b64d-4268-b3e3-edde4b01d8df","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"81b430c5-0b9b-400d-b90f-87191721553f","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"bef4b2a0-b64d-4268-b3e3-edde4b01d8df","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5be6c807-dad8-44d7-a98b-a793359cdb0b","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5be6c807-dad8-44d7-a98b-a793359cdb0b","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"LayerId":{"name":"81b430c5-0b9b-400d-b90f-87191721553f","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","name":"5be6c807-dad8-44d7-a98b-a793359cdb0b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_getaway_car_player","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},
@@ -50,10 +50,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"300ee487-0518-45e1-a649-a8e9a4905211","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"921fb9d9-e681-46c9-9a9d-437b89cef66c","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"2dbc1748-25a9-4020-a64d-b4c9ac47c2c5","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"84f1707b-a93f-43e1-822f-ba3f9817ef96","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"9127c549-00e3-4616-bd18-476048bbe9ce","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1c48287-d76a-4d84-a697-05ddbabd1fd3","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"46024818-f396-4ce8-ad0e-a81290784357","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7f16022-cd3e-42cf-9123-a836a138ce5a","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0ca90b1c-a4fe-4eff-a277-c9a47ea7441e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fe36f044-82a4-435a-98d2-8f409897593b","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"80bb8062-df2c-4d1b-bdcb-e74fbb165f38","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70b1bce1-a191-4c5b-b259-4e32968054c5","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e2250701-90b4-4d64-aece-3dee7ad8b9a3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bef4b2a0-b64d-4268-b3e3-edde4b01d8df","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1711ffbe-39c3-4cde-8d18-e736d0404efa","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5be6c807-dad8-44d7-a98b-a793359cdb0b","path":"sprites/spr_getaway_car_player/spr_getaway_car_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -77,9 +77,33 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23ca8c43-1e2d-43d4-8c40-9fc1de46f0d1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"81b430c5-0b9b-400d-b90f-87191721553f","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "enabled": false,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "resourceVersion": "1.0",
+    "loadedVersion": null,
+    "resourceType": "GMNineSliceData",
+  },
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
