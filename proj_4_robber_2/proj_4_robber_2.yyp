@@ -32,6 +32,7 @@
     {"id":{"name":"spr_win_box_level_3","path":"sprites/spr_win_box_level_3/spr_win_box_level_3.yy",},"order":41,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":10,},
     {"id":{"name":"spr_escape","path":"sprites/spr_escape/spr_escape.yy",},"order":9,},
+    {"id":{"name":"spr_heist","path":"sprites/spr_heist/spr_heist.yy",},"order":53,},
     {"id":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},"order":4,},
     {"id":{"name":"obj_police","path":"objects/obj_police/obj_police.yy",},"order":0,},
     {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},"order":33,},
