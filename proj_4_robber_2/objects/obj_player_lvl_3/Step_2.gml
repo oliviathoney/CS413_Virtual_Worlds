@@ -5,7 +5,7 @@ var offset = 0;//392;
 var width_offset = 0; // was 1024
 
 var min_camera_h = 3136;
-var max_camera_h = 1086;
+var max_camera_h = 1098;
 
 var post_y = y - view_width/2 + offset;
 

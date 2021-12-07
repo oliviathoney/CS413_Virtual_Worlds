@@ -5,4 +5,5 @@ walkspd = 5;
 jumpspd = 12;
 
 caught = false;
+jumping = false;
 global.player_x = x;
