@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_menu",
-    "path": "sprites/spr_menu/spr_menu.yy",
+    "name": "spr_instructions",
+    "path": "sprites/spr_instructions/spr_instructions.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,8 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menu",
+  "name": "obj_instructions",
   "tags": [],
   "resourceType": "GMObject",
 }

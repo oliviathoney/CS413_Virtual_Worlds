@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_flood_light",
-    "path": "sprites/spr_flood_light/spr_flood_light.yy",
+    "name": "spr_police_2",
+    "path": "sprites/spr_police_2/spr_police_2.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_flood_light",
+  "name": "obj_police",
   "tags": [],
   "resourceType": "GMObject",
 }
