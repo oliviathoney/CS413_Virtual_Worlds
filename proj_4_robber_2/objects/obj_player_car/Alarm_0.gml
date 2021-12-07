@@ -1,1 +1,1 @@
-room_goto(rm_lose);
+room_goto(rm_game_lvl_3);

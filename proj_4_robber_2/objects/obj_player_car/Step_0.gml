@@ -4,18 +4,23 @@ if(!started){
 	started = true;
 }
 
-if(global.timeAfterWin > 0) {
-	global.timeAfterWin -= 1;
+if(finished) {
+	if(alarm[0] == -1) {
+		alarm[0] = 2.5 * room_speed;
+		player_speed = 0;
+		var lyr = layer_get_id("Instances_1");
+		var robber = instance_create_layer(x-32, y+16, lyr, obj_robber_dummy);
+		with (robber) {
+			move_towards_point(x-64, room_height, 3);
+		}
+	}
+	
 	return;
 }
 
-if(global.timeAfterWin == 0) {
-	room_goto(rm_game_lvl_3);
-}
-
 if(global.player_state = player_states.caught) {
-	if(alarm[0] == -1) {
-		alarm[0] = room_speed * 2;
+	if(alarm[1] == -1) {
+		alarm[1] = room_speed * 2;
 		var lyr = layer_get_id("Instances_1");
 		var police1 = instance_create_layer(x-500, y-64, lyr, obj_police_dummy);
 		with(police1) {

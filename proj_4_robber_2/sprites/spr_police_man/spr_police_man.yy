@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 8,
-  "bbox_right": 27,
-  "bbox_top": 38,
-  "bbox_bottom": 59,
+  "bbox_left": 2,
+  "bbox_right": 31,
+  "bbox_top": 7,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"LayerId":{"name":"582611f6-95f8-40bc-ac41-a914d3847e47","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","name":"cd783c91-999d-467a-b187-65c38dc87585","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"017a6540-d50d-4818-a3d5-f67fa2936b31","path":"sprites/spr_police_man/spr_police_man.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"017a6540-d50d-4818-a3d5-f67fa2936b31","path":"sprites/spr_police_man/spr_police_man.yy",},"LayerId":{"name":"2f1a6d1a-0605-482a-8b24-d9c70ad5ab0b","path":"sprites/spr_police_man/spr_police_man.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_police_man","path":"sprites/spr_police_man/spr_police_man.yy",},"resourceVersion":"1.0","name":"017a6540-d50d-4818-a3d5-f67fa2936b31","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},
+    "spriteId": {"name":"spr_police_man","path":"sprites/spr_police_man/spr_police_man.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b13a628d-e87d-4c2e-b261-98b4b84f36d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd783c91-999d-467a-b187-65c38dc87585","path":"sprites/spr_robber/spr_robber.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c1fe56c7-e3e7-45cc-ade5-62eb2b8ab2fe","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"017a6540-d50d-4818-a3d5-f67fa2936b31","path":"sprites/spr_police_man/spr_police_man.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_robber","path":"sprites/spr_robber/spr_robber.yy",},
+    "parent": {"name":"spr_police_man","path":"sprites/spr_police_man/spr_police_man.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_robber",
+    "name": "spr_police_man",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"582611f6-95f8-40bc-ac41-a914d3847e47","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f1a6d1a-0605-482a-8b24-d9c70ad5ab0b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_robber",
+  "name": "spr_police_man",
   "tags": [],
   "resourceType": "GMSprite",
 }

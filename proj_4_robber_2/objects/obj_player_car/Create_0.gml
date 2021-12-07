@@ -24,3 +24,4 @@ jump_height = y_start - 40;
 collision_counter = 0;
 
 started = false;
+finished = false;
