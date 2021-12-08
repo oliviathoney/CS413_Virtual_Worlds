@@ -10,8 +10,11 @@ if(hspd == 0 && !jumping){
 } else if(hspd > 0){
 	sprite_index = spr_robber_running_lvl3_right;
 	facing_right = true;
-} else if(jumping){
+}
+
+if(jumping){
 	sprite_index = spr_robber_jumping;
+	audio_play_sound(sound_jump, 0, 0);
 }
 
 var _move = key_right - key_left;

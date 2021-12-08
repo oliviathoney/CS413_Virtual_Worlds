@@ -22,3 +22,5 @@ audio_stop_sound(sound_siren);
 audio_play_sound(sound_theme, 1, true);
 
 global.start_counter = 0;
+
+global.curr_room = rm_start;

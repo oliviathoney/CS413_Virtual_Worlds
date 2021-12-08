@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_helicopter","path":"sprites/spr_helicopter/spr_helicopter.yy",},"order":13,},
+    {"id":{"name":"sound_surrounded","path":"sounds/sound_surrounded/sound_surrounded.yy",},"order":11,},
     {"id":{"name":"spr_getaway_car","path":"sprites/spr_getaway_car/spr_getaway_car.yy",},"order":12,},
     {"id":{"name":"spr_car3","path":"sprites/spr_car3/spr_car3.yy",},"order":8,},
     {"id":{"name":"spr_car_red_left","path":"sprites/spr_car_red_left/spr_car_red_left.yy",},"order":34,},
@@ -70,7 +71,9 @@
     {"id":{"name":"rm_game_lvl_2","path":"rooms/rm_game_lvl_2/rm_game_lvl_2.yy",},"order":5,},
     {"id":{"name":"spr_car1","path":"sprites/spr_car1/spr_car1.yy",},"order":6,},
     {"id":{"name":"spr_open_window","path":"sprites/spr_open_window/spr_open_window.yy",},"order":47,},
+    {"id":{"name":"obj_police_audio_lvl3","path":"objects/obj_police_audio_lvl3/obj_police_audio_lvl3.yy",},"order":40,},
     {"id":{"name":"obj_car_blue_left","path":"objects/obj_car_blue_left/obj_car_blue_left.yy",},"order":4,},
+    {"id":{"name":"sound_hands_up","path":"sounds/sound_hands_up/sound_hands_up.yy",},"order":12,},
     {"id":{"name":"spr_trash_can","path":"sprites/spr_trash_can/spr_trash_can.yy",},"order":20,},
     {"id":{"name":"spr_city_background_1","path":"sprites/spr_city_background_1/spr_city_background_1.yy",},"order":21,},
     {"id":{"name":"obj_helicopter","path":"objects/obj_helicopter/obj_helicopter.yy",},"order":9,},
@@ -97,6 +100,7 @@
     {"id":{"name":"obj_car_red_right","path":"objects/obj_car_red_right/obj_car_red_right.yy",},"order":24,},
     {"id":{"name":"TGMS_4_TweenState","path":"scripts/TGMS_4_TweenState/TGMS_4_TweenState.yy",},"order":7,},
     {"id":{"name":"obj_manhole","path":"objects/obj_manhole/obj_manhole.yy",},"order":1,},
+    {"id":{"name":"sound_jump","path":"sounds/sound_jump/sound_jump.yy",},"order":10,},
     {"id":{"name":"TGMS_System","path":"scripts/TGMS_System/TGMS_System.yy",},"order":2,},
     {"id":{"name":"spr_help","path":"sprites/spr_help/spr_help.yy",},"order":3,},
     {"id":{"name":"spr_robber_running","path":"sprites/spr_robber_running/spr_robber_running.yy",},"order":42,},
@@ -206,7 +210,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "proj_4_robber_2",
