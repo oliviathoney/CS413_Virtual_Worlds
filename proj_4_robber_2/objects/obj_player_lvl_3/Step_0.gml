@@ -1,5 +1,11 @@
 key_left = keyboard_check(vk_left);
+if(key_left == 0){
+	key_left = keyboard_check(ord("A"));
+}
 key_right = keyboard_check(vk_right);
+if(key_right == 0){
+	key_right = keyboard_check(ord("D"));
+}
 key_jump = keyboard_check_pressed(vk_space);
 
 if(hspd == 0 && !jumping){

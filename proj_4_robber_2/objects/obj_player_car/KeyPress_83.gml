@@ -1,0 +1,1 @@
+move_car(player_positions.down);
